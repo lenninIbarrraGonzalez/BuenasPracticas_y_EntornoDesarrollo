@@ -22,7 +22,12 @@ rm nombre_archivo //borrar un archivo
 
 rm -rf nombre_de_la_carpeta
 
+cat: permite visualizar un archivo completo en la terminal.
+more: muestra por partes un archivo dentro de la terminal.
+tail: muestra las últimas 10 líneas de cada archivo, se puede modificar pasándole el parámetro con el número de líneas -15.
+open: abre un archivo con el programa que tengamos por defecto
 
+cat prueba.txt > copy_prueba.txt //permite copiar un archivo
 
 
 
