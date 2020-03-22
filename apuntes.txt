@@ -1,0 +1,31 @@
+Comandos
+
+ls //lista archivos donde estamos ubicados
+ls-a //lista archivos ocultos
+ls -l //permisos de cada directorio, propietario
+
+clear //limpiar pantalla
+CRT + L //limpia pantalla
+
+pwd //ruta absoluta donde estamos ubicados
+mkdir nombre_carpeta //crear nombre_carpeta
+cd nombre_carpeta //ingresar a la nombre_carpeta
+
+. //hace refeencia a la carpeta donde estamos
+.. //carpeta padre
+
+cd // ir a home
+
+touch nombre_archivo // para crear un archivo
+mv prueba.txt test_folder //mover un archivos
+rm nombre_archivo //borrar un archivo
+
+rm -rf nombre_de_la_carpeta
+
+
+
+
+
+
+
+
