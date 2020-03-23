@@ -29,7 +29,49 @@ open: abre un archivo con el programa que tengamos por defecto
 
 cat prueba.txt > copy_prueba.txt //permite copiar un archivo
 
+Las llaves SSH nos van a ayudar para autentificarnos con servidores. SSH utiliza criptografía asimétrica, o sea, tenemos dos llaves:
 
+Pública: la llave pública la podemos compartir por internet.
+Privada: debes tenerla en un sitio seguro y no debe ser compartida.
+Tener una llave SSH nos permitirá una conexión fácil y segura con servidores, en el caso de la escuela de JavaScript nos va a servir para conectarnos con GitHub.
+
+Para crear una llave SSH utilizamos el siguiente comando:
+
+ssh-keygen -t rsa -b 4096 -C llave, puede ser tu correo> 
+
+Revisión de Node en nuestro sistema
+En la mayoría de sistemas basados en Unix ya viene instalado por defecto Node, para asegurarnos de que esté instalado debemos irnos a nuestra terminal de comandos y ejecutar:
+$ node -v
+
+Instalación de Node en Linux
+Dependiendo de tu distribución de Linux deberás ejecutar comandos distintos, esto porque entre distribuciones cambiar el gestor de paquetes:
+En distribuciones basadas en Debian y Ubuntu debes ejecutar:
+
+$ sudo apt update
+
+$ sudo apt install nodejs
+
+$ sudo apt install npm
+
+En distribuciones basadas en Arch:
+
+$ pacman -S nodejs npm
+
+//intalando extenxiones en vs code
+
+npm install -g eslint
+npx eslint --init 
+
+
+Plugins para desarrollo frontEnd
+
+react developer tools
+redux developer tools
+
+Plugins para desarrollo backend
+
+JSON Viewer
+Postman
 
 
 
